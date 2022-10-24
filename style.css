@@ -1,9 +1,15 @@
 body{
-    background-color: #FFFFFF;
+    background-color: gainsboro;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+  
+
 }
 
 header{
-    background: white;
+    background-color: white;
+    margin: 0px;
+    padding: 1px;
 }
 
 h1{
@@ -18,7 +24,9 @@ h1{
 .post{
     background-color: white;
     margin: 40px;
-    box-shadow: 1px 3px 7px rgba(230, 230, 230, 0.4);
+    padding-bottom: 25px;
+    box-shadow: 1px 3px 7px rgba(215, 215, 215, 0.6);
+    border-radius: 5px;
 }
 
 span{
@@ -36,4 +44,8 @@ img{
 
 .post h2, .post span{
     padding: 10px;
+}
+
+.foot-post{
+    margin: 10px;
 }
